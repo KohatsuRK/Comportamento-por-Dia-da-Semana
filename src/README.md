@@ -88,3 +88,29 @@ O padrão Null Object.
 ### 3. Explique brevemente como esse padrão foi incorporado à solução.
 
 A classe UnknownDayStrategy implementa a interface DayStrategy e fornece um comportamento padrão para dias inválidos ou sem estratégia cadastrada. Quando isso ocorre, o StrategySelect retorna essa implementação em vez de null, permitindo que o restante da aplicação continue funcionando normalmente sem tratamentos especiais.
+
+# Exemplos de Teste
+### 1. Entrada válida
+
+Nome: Ana
+
+Tarefa: Implementar relatório
+
+Dia: quarta-feira
+
+Prioridade: MÉDIA
+
+Mensagem: Dia de revisão: verifique o andamento da atividade "Implementar relatório".
+
+
+### 2. Entrada inválida
+
+Nome: Ana
+
+Tarefa: Implementar relatório
+
+Dia: feriado
+
+Prioridade: BAIXA
+
+Mensagem: Nenhuma estratégia foi encontrada para o dia informado
