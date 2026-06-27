@@ -1,6 +1,6 @@
 package Strategy;
 
-public class FriydayStrategy implements DayStrategy{
+public class FridayStrategy implements DayStrategy{
     @Override
     public String execute(String userInput) {
         return "Registre o que foi concluído da atividade: " + userInput ;

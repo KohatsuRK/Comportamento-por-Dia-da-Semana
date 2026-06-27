@@ -26,6 +26,7 @@ src/
 │
 ├── selector/
 │   └── StrategySelect.java
+│   └── StrategySelector.java
 │
 └── Main.java
 ```
