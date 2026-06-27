@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b2ecaa-850b-443a-900d-c46601e3ce14" name="Changes" comment="" />
+    <list default="true" id="60b2ecaa-850b-443a-900d-c46601e3ce14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Selector/StrategySelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/DayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/FriydayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/MondayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/SaturdayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/SundayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/ThursdayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/TuesdayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/UnknownDayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/WednesdayStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,18 +39,55 @@
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="3Fj7w5xxvcdVi8XKtG86Qc1WdFI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Strategy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Strategy.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Comportamente_dia" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.Main" />
+      <module name="Comportamente_dia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Strategy.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
