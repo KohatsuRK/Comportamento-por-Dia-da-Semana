@@ -1,13 +1,8 @@
 package Strategy;
-
-public class WednesdayStrategy implements DayStrategy{
+public class WednesdayStrategy implements DayStrategy {
     @Override
     public String execute(String userInput) {
-        return "Revise o andamento das atividades";
+        return "Dia de revisão: verifique o andamento da atividade \"" + userInput + "\".";
     }
-
-    @Override
-    public String getPrioridade() {
-        return "MÉDIA";
-    }
+    @Override public String getPrioridade() { return "MÉDIA"; }
 }

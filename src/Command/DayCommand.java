@@ -1,6 +1,6 @@
-package command;
+package Command;
 
-import selector.StrategySelect;
+import Selector.StrategySelect;
 
 public interface DayCommand {
     void execute(StrategySelect selector);

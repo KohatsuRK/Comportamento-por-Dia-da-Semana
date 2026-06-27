@@ -1,10 +1,10 @@
-package command;
+package Command;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import selector.StrategySelect;
-import strategy.*;
+import Selector.StrategySelect;
+import Strategy.*;
 
 public class CommandLoader {
 
@@ -22,8 +22,8 @@ public class CommandLoader {
     }
 
     public void load(StrategySelect selector) {
-        for (DayCommand command : commands) {
-            command.execute(selector);
+        for (DayCommand Command : commands) {
+            Command.execute(selector);
         }
     }
 }

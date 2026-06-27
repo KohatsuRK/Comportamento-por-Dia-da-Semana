@@ -1,7 +1,7 @@
-package command;
+package Command;
 
-import selector.StrategySelect;
-import strategy.DayStrategy;
+import Selector.StrategySelect;
+import Strategy.DayStrategy;
 
 public class RegisterStrategyCommand implements DayCommand {
 
